@@ -1,0 +1,52 @@
+0.  BMP: 16M
+    GIF: 256
+    JPEG: 16M
+    PNG: 256T
+
+1.  GIF
+
+2.  Lossless data compression is a class of data compression algorithms that allows the original data
+    to be perfectly reconstructed from the compressed data. By contrast, lossy data compression permits
+    reconstruction only of an approximation of the original data.
+
+3.  JPEG
+
+4.  When the operating system erases a FAT ﬁle, two things occur. First, the system modiﬁes the ﬁlename’s ﬁrst
+    character in the ﬁle’s directory entry to signal that the ﬁle has been deleted and that the directory entry
+    can be recycled. Second, the system moves all of the ﬁle’s FAT cluters to the hard drive’s list of free clusters.
+    The actual ﬁle data is never touched.
+
+5.  They can use sanitization tools.
+
+6.  stdint.h is a header file in the C standard library introduced in the C99 standard library section 7.18 to allow
+    programmers to write more portable code by providing a set of typedefs that specify exact-width integer types,
+    together with the defined minimum and maximum allowable values for each type, using macros.
+
+7.  The point of using these types of values is that when we declare variables, they will have an exact size.
+
+8.  BYTE = 1 byte
+    DWORD = 4 bytes
+    LONG = 4 bytes
+    WORD = 2 bytes
+    
+9.  0x42 0x4d
+
+10. The bfSize shows the size in bytes of the bitmap file.
+    The biSize shows the number of bytes that are required by the structure BITMAPINFOHEADER.
+
+11. If biHeight is negative, the bitmap is a top-down DIB and its origin is the upper-left corner.
+
+12. The field biBitCount specifies the BMP's color depth.
+
+13. Because there might be a lack of memory.
+
+14. The third arguement of fread is always 1 in the copy.c, because the function will read the total
+    bytes of BITMAPFILEHEADER or BITMAPINFOHEADER at once (as a block) and this should be done only one time.
+
+15. 3
+
+16. fseek allows you to change the location of the fp pointer, skipping over a number of bytes, either forward or backwards.
+
+17. SEEK_CUR allows us to change the location of the fp in relation to its current location.
+
+18. Rob Bowden

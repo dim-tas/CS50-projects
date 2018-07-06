@@ -1,0 +1,26 @@
+0. Pneumonoultramicroscopicsilicovolcanoconiosis is the longest word in the English language.
+  
+1.  getrusage returns resource usage measures for some processes.
+
+2.  16 members
+  
+3.  We use before and after to calculate so as to pass to the calculate function the values which are
+    stored in the memory spaceof structs before and after, in other words the structs ru_utime and ru_stime.
+
+
+4.  For loops iterates over a whole text and fgetc scans the text character by character. A word is found
+    when a bunch of characters without numerics or other symbols, equal or less than 45-chars is scanned.
+    In a different case what is scanned, is rejected.
+
+5.  Becuase we may have scanned strings with symbols or numbers.
+
+6.  So as not to be somehow corrupted by the functions.
+
+7.  I used hash table with every field of the hash table being the head for a sinlgy linked list. The nodes
+    of the sigly linked lists consist of a char array with length [LENGTH + 1] and a pointer to the next node.
+
+8.  My code was fast enough when comparing it with the staff solution.
+
+9.  I didn't make any change.
+
+10. I can't detect any bottleneck.
